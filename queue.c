@@ -45,7 +45,7 @@ void addqueue(stack_t **head, int n)
  *
  * This function takes a pointer to the head of a stack and an unsigned integer
  * representing the line number in the source file (unused). It sets the global
- * variable `bus.lifi` to 1, indicating that the stack mode is now queue(FIFO).
+ * variable `bus_code.lifi` to 1, indicating that the stack mode is now queue(FIFO).
  *
  * @head: A pointer to the head of the stack.
  * @counter: The line number in the source file (unused).
@@ -54,5 +54,5 @@ void f_queue(stack_t **head, unsigned int counter)
 {
 	(void)head;
 	(void)counter;
-	bus.lifi = 1;
+	bus_code.lifi = 1;
 }

@@ -26,17 +26,17 @@ typedef struct stack_s
 } stack_t;
 /**
 * @struct bus_s
- * @brief Structure representing a bus with specific properties.
+ * @brief Structure representing a bus_code with specific properties.
  * @var bus_s::arg
- * Member variable representing command-line arguments associated with the bus
+ * Member variable representing command-line arguments associated with the bus_code
  * @var bus_s::file
- * Member variable representing a file pointer associated with the bus.
+ * Member variable representing a file pointer associated with the bus_code.
  * @var bus_s::content
- * Member variable representing content associated with the bus.
+ * Member variable representing content associated with the bus_code.
  * @var bus_s::lifi
- * Member variable representing an integer value associated with the bus.
+ * Member variable representing an integer value associated with the bus_code.
  *
- * @var bus
+ * @var bus_code
  * External instance of the 'bus_t' structure that can be used globally.
  */
 typedef struct bus_s
@@ -46,7 +46,7 @@ typedef struct bus_s
 	char *content;
 	int lifi;
 } bus_t;
-extern bus_t bus;
+extern bus_t bus_code;
 
 /**
  * struct instruction_s - opcode and its function
